@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/mystyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="assets/img/laptop.png" alt="laptop">
+            <h4>Laptop Gamer AMD</h4>
+            <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad">
+            <input type="color" name="color" id="color">
+            <p>Precio: 400000</p>
+            <button type="submit" onclick="calcular()">Calcular Total</button>
+        </div>
+        <div class="list">
+            <ul class="totalList">
+                <li>Total: $<span id="totalPrecio"></span></li>
+                <li>Cantidad: <span id="totalCantidad"></span></li>
+                <li>Color: <span id="totalColor"></span></li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="assets/js/myscript.js"></script>
+</body>
+
+</html>
